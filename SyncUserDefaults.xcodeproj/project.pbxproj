@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BDC57961C9C0844001C963F /* SyncUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC57951C9C0844001C963F /* SyncUserDefaults.m */; };
+		9BDC57991C9C087A001C963F /* SyncUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC57981C9C087A001C963F /* SyncUserDefaults.m */; };
+		9BE94C361C99776700764F0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE94C351C99776700764F0C /* main.m */; };
+		9BE94C391C99776800764F0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE94C381C99776800764F0C /* AppDelegate.m */; };
+		9BE94C3C1C99776800764F0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE94C3B1C99776800764F0C /* ViewController.m */; };
+		9BE94C3F1C99776800764F0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE94C3D1C99776800764F0C /* Main.storyboard */; };
+		9BE94C411C99776800764F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE94C401C99776800764F0C /* Assets.xcassets */; };
+		9BE94C441C99776800764F0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE94C421C99776800764F0C /* LaunchScreen.storyboard */; };
+		9BE94C491C99776800764F0C /* SyncUserDefaults WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9BE94C481C99776800764F0C /* SyncUserDefaults WatchKit App.app */; };
+		9BE94C4F1C99776800764F0C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE94C4D1C99776800764F0C /* Interface.storyboard */; };
+		9BE94C511C99776800764F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE94C501C99776800764F0C /* Assets.xcassets */; };
+		9BE94C581C99776800764F0C /* SyncUserDefaults WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9BE94C571C99776800764F0C /* SyncUserDefaults WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9BE94C5E1C99776800764F0C /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE94C5D1C99776800764F0C /* InterfaceController.m */; };
+		9BE94C611C99776800764F0C /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE94C601C99776800764F0C /* ExtensionDelegate.m */; };
+		9BE94C631C99776800764F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE94C621C99776800764F0C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BE94C4A1C99776800764F0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BE94C291C99776700764F0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BE94C471C99776800764F0C;
+			remoteInfo = "SyncUserDefaults WatchKit App";
+		};
+		9BE94C591C99776800764F0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BE94C291C99776700764F0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BE94C561C99776800764F0C;
+			remoteInfo = "SyncUserDefaults WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9BE94C6A1C99776800764F0C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9BE94C581C99776800764F0C /* SyncUserDefaults WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE94C6E1C99776800764F0C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9BE94C491C99776800764F0C /* SyncUserDefaults WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9BDC57941C9C0844001C963F /* SyncUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SyncUserDefaults.h; path = "../Shared Code/SyncUserDefaults.h"; sourceTree = "<group>"; };
+		9BDC57951C9C0844001C963F /* SyncUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SyncUserDefaults.m; path = "../Shared Code/SyncUserDefaults.m"; sourceTree = "<group>"; };
+		9BDC57971C9C087A001C963F /* SyncUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SyncUserDefaults.h; path = "Shared Code/SyncUserDefaults.h"; sourceTree = SOURCE_ROOT; };
+		9BDC57981C9C087A001C963F /* SyncUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SyncUserDefaults.m; path = "Shared Code/SyncUserDefaults.m"; sourceTree = SOURCE_ROOT; };
+		9BE94C311C99776700764F0C /* SyncUserDefaults.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyncUserDefaults.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE94C351C99776700764F0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BE94C371C99776700764F0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9BE94C381C99776800764F0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9BE94C3A1C99776800764F0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9BE94C3B1C99776800764F0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9BE94C3E1C99776800764F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BE94C401C99776800764F0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BE94C431C99776800764F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BE94C451C99776800764F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE94C481C99776800764F0C /* SyncUserDefaults WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SyncUserDefaults WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE94C4E1C99776800764F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		9BE94C501C99776800764F0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BE94C521C99776800764F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE94C571C99776800764F0C /* SyncUserDefaults WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SyncUserDefaults WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE94C5C1C99776800764F0C /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		9BE94C5D1C99776800764F0C /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		9BE94C5F1C99776800764F0C /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		9BE94C601C99776800764F0C /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		9BE94C621C99776800764F0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BE94C641C99776800764F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BE94C2E1C99776700764F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE94C541C99776800764F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BE94C281C99776700764F0C = {
+			isa = PBXGroup;
+			children = (
+				9BE94C331C99776700764F0C /* SyncUserDefaults */,
+				9BE94C4C1C99776800764F0C /* SyncUserDefaults WatchKit App */,
+				9BE94C5B1C99776800764F0C /* SyncUserDefaults WatchKit Extension */,
+				9BE94C321C99776700764F0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BE94C321C99776700764F0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BE94C311C99776700764F0C /* SyncUserDefaults.app */,
+				9BE94C481C99776800764F0C /* SyncUserDefaults WatchKit App.app */,
+				9BE94C571C99776800764F0C /* SyncUserDefaults WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BE94C331C99776700764F0C /* SyncUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				9BDC57941C9C0844001C963F /* SyncUserDefaults.h */,
+				9BDC57951C9C0844001C963F /* SyncUserDefaults.m */,
+				9BE94C371C99776700764F0C /* AppDelegate.h */,
+				9BE94C381C99776800764F0C /* AppDelegate.m */,
+				9BE94C3A1C99776800764F0C /* ViewController.h */,
+				9BE94C3B1C99776800764F0C /* ViewController.m */,
+				9BE94C3D1C99776800764F0C /* Main.storyboard */,
+				9BE94C401C99776800764F0C /* Assets.xcassets */,
+				9BE94C421C99776800764F0C /* LaunchScreen.storyboard */,
+				9BE94C451C99776800764F0C /* Info.plist */,
+				9BE94C341C99776700764F0C /* Supporting Files */,
+			);
+			path = SyncUserDefaults;
+			sourceTree = "<group>";
+		};
+		9BE94C341C99776700764F0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BE94C351C99776700764F0C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BE94C4C1C99776800764F0C /* SyncUserDefaults WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				9BE94C4D1C99776800764F0C /* Interface.storyboard */,
+				9BE94C501C99776800764F0C /* Assets.xcassets */,
+				9BE94C521C99776800764F0C /* Info.plist */,
+			);
+			path = "SyncUserDefaults WatchKit App";
+			sourceTree = "<group>";
+		};
+		9BE94C5B1C99776800764F0C /* SyncUserDefaults WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9BDC57971C9C087A001C963F /* SyncUserDefaults.h */,
+				9BDC57981C9C087A001C963F /* SyncUserDefaults.m */,
+				9BE94C5C1C99776800764F0C /* InterfaceController.h */,
+				9BE94C5D1C99776800764F0C /* InterfaceController.m */,
+				9BE94C5F1C99776800764F0C /* ExtensionDelegate.h */,
+				9BE94C601C99776800764F0C /* ExtensionDelegate.m */,
+				9BE94C621C99776800764F0C /* Assets.xcassets */,
+				9BE94C641C99776800764F0C /* Info.plist */,
+			);
+			path = "SyncUserDefaults WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BE94C301C99776700764F0C /* SyncUserDefaults */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BE94C6F1C99776800764F0C /* Build configuration list for PBXNativeTarget "SyncUserDefaults" */;
+			buildPhases = (
+				9BE94C2D1C99776700764F0C /* Sources */,
+				9BE94C2E1C99776700764F0C /* Frameworks */,
+				9BE94C2F1C99776700764F0C /* Resources */,
+				9BE94C6E1C99776800764F0C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BE94C4B1C99776800764F0C /* PBXTargetDependency */,
+			);
+			name = SyncUserDefaults;
+			productName = SyncUserDefaults;
+			productReference = 9BE94C311C99776700764F0C /* SyncUserDefaults.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BE94C471C99776800764F0C /* SyncUserDefaults WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BE94C6B1C99776800764F0C /* Build configuration list for PBXNativeTarget "SyncUserDefaults WatchKit App" */;
+			buildPhases = (
+				9BE94C461C99776800764F0C /* Resources */,
+				9BE94C6A1C99776800764F0C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BE94C5A1C99776800764F0C /* PBXTargetDependency */,
+			);
+			name = "SyncUserDefaults WatchKit App";
+			productName = "SyncUserDefaults WatchKit App";
+			productReference = 9BE94C481C99776800764F0C /* SyncUserDefaults WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		9BE94C561C99776800764F0C /* SyncUserDefaults WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BE94C671C99776800764F0C /* Build configuration list for PBXNativeTarget "SyncUserDefaults WatchKit Extension" */;
+			buildPhases = (
+				9BE94C531C99776800764F0C /* Sources */,
+				9BE94C541C99776800764F0C /* Frameworks */,
+				9BE94C551C99776800764F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SyncUserDefaults WatchKit Extension";
+			productName = "SyncUserDefaults WatchKit Extension";
+			productReference = 9BE94C571C99776800764F0C /* SyncUserDefaults WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BE94C291C99776700764F0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Theo Scott";
+				TargetAttributes = {
+					9BE94C301C99776700764F0C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					9BE94C471C99776800764F0C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					9BE94C561C99776800764F0C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9BE94C2C1C99776700764F0C /* Build configuration list for PBXProject "SyncUserDefaults" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BE94C281C99776700764F0C;
+			productRefGroup = 9BE94C321C99776700764F0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BE94C301C99776700764F0C /* SyncUserDefaults */,
+				9BE94C471C99776800764F0C /* SyncUserDefaults WatchKit App */,
+				9BE94C561C99776800764F0C /* SyncUserDefaults WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BE94C2F1C99776700764F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE94C441C99776800764F0C /* LaunchScreen.storyboard in Resources */,
+				9BE94C411C99776800764F0C /* Assets.xcassets in Resources */,
+				9BE94C3F1C99776800764F0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE94C461C99776800764F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE94C511C99776800764F0C /* Assets.xcassets in Resources */,
+				9BE94C4F1C99776800764F0C /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE94C551C99776800764F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE94C631C99776800764F0C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BE94C2D1C99776700764F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE94C3C1C99776800764F0C /* ViewController.m in Sources */,
+				9BDC57961C9C0844001C963F /* SyncUserDefaults.m in Sources */,
+				9BE94C391C99776800764F0C /* AppDelegate.m in Sources */,
+				9BE94C361C99776700764F0C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE94C531C99776800764F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE94C611C99776800764F0C /* ExtensionDelegate.m in Sources */,
+				9BE94C5E1C99776800764F0C /* InterfaceController.m in Sources */,
+				9BDC57991C9C087A001C963F /* SyncUserDefaults.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BE94C4B1C99776800764F0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BE94C471C99776800764F0C /* SyncUserDefaults WatchKit App */;
+			targetProxy = 9BE94C4A1C99776800764F0C /* PBXContainerItemProxy */;
+		};
+		9BE94C5A1C99776800764F0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BE94C561C99776800764F0C /* SyncUserDefaults WatchKit Extension */;
+			targetProxy = 9BE94C591C99776800764F0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BE94C3D1C99776800764F0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BE94C3E1C99776800764F0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BE94C421C99776800764F0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BE94C431C99776800764F0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9BE94C4D1C99776800764F0C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BE94C4E1C99776800764F0C /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BE94C651C99776800764F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9BE94C661C99776800764F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BE94C681C99776800764F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SyncUserDefaults WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.me.tgs.SyncUserDefaults.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		9BE94C691C99776800764F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SyncUserDefaults WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.me.tgs.SyncUserDefaults.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		9BE94C6C1C99776800764F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = SyncUserDefaults_WatchKit_Extension;
+				INFOPLIST_FILE = "SyncUserDefaults WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.me.tgs.SyncUserDefaults.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		9BE94C6D1C99776800764F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = SyncUserDefaults_WatchKit_Extension;
+				INFOPLIST_FILE = "SyncUserDefaults WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.me.tgs.SyncUserDefaults.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		9BE94C701C99776800764F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SyncUserDefaults/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.me.tgs.SyncUserDefaults;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9BE94C711C99776800764F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SyncUserDefaults/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.me.tgs.SyncUserDefaults;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BE94C2C1C99776700764F0C /* Build configuration list for PBXProject "SyncUserDefaults" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE94C651C99776800764F0C /* Debug */,
+				9BE94C661C99776800764F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BE94C671C99776800764F0C /* Build configuration list for PBXNativeTarget "SyncUserDefaults WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE94C681C99776800764F0C /* Debug */,
+				9BE94C691C99776800764F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BE94C6B1C99776800764F0C /* Build configuration list for PBXNativeTarget "SyncUserDefaults WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE94C6C1C99776800764F0C /* Debug */,
+				9BE94C6D1C99776800764F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BE94C6F1C99776800764F0C /* Build configuration list for PBXNativeTarget "SyncUserDefaults" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE94C701C99776800764F0C /* Debug */,
+				9BE94C711C99776800764F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BE94C291C99776700764F0C /* Project object */;
+}
