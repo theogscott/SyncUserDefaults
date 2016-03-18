@@ -1,0 +1,25 @@
+# rename to .gitignore in your source directory
+# then git add .gitignore and git commit
+
+# ignore xcode auto-generated files
+build/
+*~.nib/
+*.perspective
+*.perspectivev3
+*.pbxuser
+*.mode1v3
+xcuserdata
+
+
+# ignore osx noise
+.DS_Store
+profile
+
+# ignore backups created by text editors
+*~
+*.bak
+
+# ignore object/generated files
+*.o
+*.pyc
+*.pyo
